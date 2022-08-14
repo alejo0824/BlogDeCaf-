@@ -4,3 +4,4 @@
 
 ## Paso a paso
 1. Se define: colores, tipografías, tamaños de letra e imágenes. Se define el header y footer para todas las páginas.
+2. Se termina el blog del index. Uso del pseudo selector last-of-type para diseño de border-bottom. Uso de Grid y de inline-block
