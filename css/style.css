@@ -108,9 +108,23 @@ img {
     margin-top: 4rem;
 }
 
+@media (min-width: 768px) {
+    .header__text {
+        margin-top: 15rem;
+    }
+}
+
 .header__text h2,
 .header__text p {
     text-align: center;
     margin: 0;
     color: var(--blanco);
+}
+
+
+/*--------------FOOTER--------------*/
+
+.footer {
+    margin-top: 2rem;
+    background-color: var(--negro);
 }
