@@ -8,3 +8,5 @@
 2. Se termina el blog del index. Uso del pseudo selector last-of-type para diseño de border-bottom. Uso de Grid y de inline-block.
 
 3. Se Termina la página cursos con CSS grid, se mejora el footer y se consigue que el logo sea un selector.
+
+4. Fin de la página entrada
