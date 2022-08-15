@@ -54,6 +54,7 @@ h3 {
 
 h4 {
     font-size: 2.8rem;
+    margin: 0;
 }
 
 img {
@@ -133,15 +134,17 @@ img {
 }
 
 .article,
-.course {
+.course,
+.workshop {
     border-bottom: 1px solid var(--gris);
     margin-bottom: 2rem;
 }
 
 .article:last-of-type,
-.course:last-of-type {
+.course:last-of-type,
+.workshop:last-of-type {
     border: none;
-    margin: 0;
+    margin-bottom: 0;
 }
 
 .article__content h4,
@@ -205,6 +208,26 @@ img {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
     }
+}
+
+
+/*--------------CUSROS--------------*/
+
+@media (min-width: 768px) {
+    .workshop {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 2rem;
+    }
+}
+
+.workshop__label {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.workshop__info {
+    font-weight: normal;
 }
 
 
