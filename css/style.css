@@ -154,13 +154,19 @@ img {
 
 .button {
     display: block;
-    text-align: center;
+    font-family: var(--fuenteHeading);
     color: var(--blanco);
+    text-align: center;
     padding: 1rem 3rem;
-    text-transform: uppercase;
-    font-weight: bold;
     font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
     margin-bottom: 2rem;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -228,6 +234,42 @@ img {
 
 .workshop__info {
     font-weight: normal;
+}
+
+
+/*--------------CONTACTO--------------*/
+
+.backgroundimg {
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.form {
+    background-color: var(--blanco);
+    width: 90%;
+    margin: -5rem auto 0 auto;
+    padding: 3rem;
+}
+
+.field {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.field__label {
+    flex: 0 0 9rem;
+    text-align: center;
+    padding-right: 2rem;
+}
+
+.field__input {
+    flex: 1;
+}
+
+.field__input--textarea {
+    height: 20rem;
 }
 
 

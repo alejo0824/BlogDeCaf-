@@ -10,3 +10,5 @@
 3. Se Termina la página cursos con CSS grid, se mejora el footer y se consigue que el logo sea un selector.
 
 4. Fin de la página entrada
+
+5. Se finaliza la página de contacto, se usa display flex con la propiedad flex para distribuir los labels y los inputs del formulario.Una forma diferente de distribución que CSS grid
